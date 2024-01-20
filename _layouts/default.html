@@ -147,10 +147,35 @@
       <footer class="footer">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+            <div class="col-12 col-lg-4 text-center text-lg-left">
               Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
             </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">
+            <div class="col-12 col-lg-4 text-center text-lg-left py-3 py-lg-0">
+              <div class="author-socials text-center">
+                <a
+                  class="social-link linkedin"
+                  target="_blank"
+                  href="{{ site.data.authors.wijione.linkedin }}"
+                  aria-label="Author linkedin"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a
+                  class="social-link github"
+                  target="_blank"
+                  href="{{ site.data.authors.wijione.github }}"
+                  aria-label="Author github"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a
+                  class="social-link instagram"
+                  target="_blank"
+                  href="{{ site.data.authors.wijione.instagram }}"
+                  aria-label="Author instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 text-center text-lg-right">
               {{ site.description }}
             </div>
           </div>

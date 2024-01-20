@@ -6,30 +6,30 @@ comments: true
 ---
 
 <div class="row justify-content-between">
-<div class="col-md-8 pr-5">
+<div class="col-md-7">
+<p>Welcome to <b>CodeSmuzi</b>!</p>
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
+<p>My name is Volodymyr Baranchuk. I'm a software developer and author of this blog. At the moment of writing I have over <b>5 years</b> of experience and a bunch of interesting and complex projects behind.</p>
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
-<h4>Documentation</h4>
+<p>My main area of expertise is <b>Web UI Software Development</b>. However, I love learning new topics and tools that are not directly connected to front-end.</p>
 
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
+<p>Since I don't have a degree in computer science, now I'm trying to catch up on everything that I've missed in the world of programming. This blog serves as a personal notebook where I'm keeping my notes, coding tips, tutorials, best practices and techniques, breakdowns of algorithms and data structures.</p>
 
-<h4>Questions or bug reports?</h4>
+<p>I strongly believe that writing a blog has lots of positive effects, such as:</p>
 
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
+<ul>
+  <li>deeper understanding of a topic;</li>
+  <li>easier memorization;</li>
+  <li>vocabulary expansion;</li>
+  <li>self-discipline.</li>
+</ul>
 
-</div>
+<p>Besides, I sincerely hope that this blog will also prove useful to someone other than myself.</p>
 
-<div class="col-md-4">
-
-<div class="sticky-top sticky-top-80">
-<h5>Buy me a coffee</h5>
-
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
-
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
+<p>If you want to learn more about me or the idea behind this blog, please refer to my <a href="/welcome">welcoming post</a>.</p>
 
 </div>
-</div>
+<div class="col-md-5">
+<img class="w-100 h-auto" src="/assets//images/about/viewneo-office.JPG" >
+</div> 
 </div>

@@ -88,6 +88,12 @@ section.recent-posts {
     margin-bottom: 0rem;
 }
 
+.article-post figure figcaption {
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+}
+
 @media (min-width:576px) {
     .card-columns.listfeaturedtag {
         -webkit-column-count: 2;
@@ -329,8 +335,7 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-    font-family: Merriweather;
-    font-size: 1.1rem;
+    font-size: 17px;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
 }
@@ -344,7 +349,7 @@ blockquote {
 
 .article-post p,
 .article-post blockquote {
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 1rem 0;
 }
 
 .featured-image {
@@ -903,7 +908,10 @@ iframe {
 
 .author-socials a {
     font-size: 20px;
-    margin-right: 5px;
+}
+
+.author-socials a:not(:last-of-type) {
+    margin-right: 10px;
 }
 
 .author-socials a.github {
@@ -913,3 +921,15 @@ iframe {
 .author-socials a.linkedin {
     color: #0077B5;
 }
+
+.author-socials a.instagram {
+    color: #C13584;
+}
+
+.article-footer {
+    border: 1px solid #e77f67;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 0;
+}
+

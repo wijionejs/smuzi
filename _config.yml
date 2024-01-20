@@ -1,11 +1,11 @@
 # Site
 name: "CodeSmuzi"
 title: "CodeSmuzi"
-description: "Rather a personal notebook than a full-fledged blog."
+description: "Blend of coding tips, tricks, best practices and breakdowns."
 logo: "assets/images/logo.png"
 favicon: "assets/images/logo.png"
 google_analytics:
-disqus: demowebsite
+disqus: codesmuzi
 include: ["_pages"]
 permalink: /:title/
 

@@ -31,10 +31,11 @@ post_class: post-template
                     </div>
                     <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
                         <div class="d-flex align-items-center justify-content-center justify-content-md-start flex-column flex-md-row">
-                            <span class="mr-3 text-dark font-weight-bold">{{ author.display_name }}</span>
+                            <span class="mr-md-3 text-dark font-weight-bold">{{ author.display_name }}</span>
                             <div class="author-socials">
                                 <a class="social-link linkedin" target="_blank" href="{{ author.linkedin }}" aria-label="Author linkedin"><i class="fab fa-linkedin"></i></a>
                                 <a class="social-link github" target="_blank" href="{{ author.github }}" aria-label="Author github"><i class="fab fa-github"></i></a>
+                                <a class="social-link instagram" target="_blank" href="{{ author.instagram }}" aria-label="Author instagram"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <span class="author-description">{{ author.description }}</span>
@@ -79,6 +80,7 @@ post_class: post-template
                 {% endif %}
                 <!-- End Toc -->
                 {{content}}
+                {% include article-footer.html %}
             </div>
 
             <!-- Post Date -->
