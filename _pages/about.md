@@ -30,6 +30,6 @@ comments: true
 
 </div>
 <div class="col-md-5">
-<img class="w-100 h-auto" src="/assets//images/about/viewneo-office.JPG" >
+<img class="w-100 h-auto" src="{{ site.baseurl }}/assets//images/about/viewneo-office.JPG" >
 </div> 
 </div>

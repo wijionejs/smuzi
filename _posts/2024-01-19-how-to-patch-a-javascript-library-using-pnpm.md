@@ -123,11 +123,11 @@ console.log(sum);
 
 The program we've written is supposed to print **30** in the terminal. Let's run the application and see what happens.
 
-![Wrong result](/assets/images/how-to-patch-a-javascript-library-using-pnpm/wrong-result.png)
+![Wrong result]({{ site.baseurl }}/assets/images/how-to-patch-a-javascript-library-using-pnpm/wrong-result.png)
 
 Unexpectedly, we get **10** instead of **30**. Hmm, seems like the library does subtraction instead of addition. Let's open the source code of the library inside `node_modules` and find our why we're getting a wrong result.
 
-![Broken library](/assets/images/how-to-patch-a-javascript-library-using-pnpm/broken-library.png)
+![Broken library]({{ site.baseurl }}/assets/images/how-to-patch-a-javascript-library-using-pnpm/broken-library.png)
 
 As you can see, we were right, a wrong operator has been used. Let's fix it together. 
 
@@ -141,7 +141,7 @@ pnpm patch wijione-add-two-numbers@1.0.0
 
 By default pnpm creates the folder in a special path like in the screenshot below. The path is instantly printed to the terminal. However, using `--edit-dir` flag you can specify the folder as you see fit.
 
-![Patch folder](/assets/images/how-to-patch-a-javascript-library-using-pnpm/patch-folder.png)
+![Patch folder]({{ site.baseurl }}/assets/images/how-to-patch-a-javascript-library-using-pnpm/patch-folder.png)
 
 Once the folder is created, we can open it and edit the source code however we like. In our example we must replace subtraction operator (-) with addition operation (+) in `/<generated_path_to_the_patch_folder>/index.js` file.
 
@@ -163,7 +163,7 @@ pnpm patch-commit <generated_path_to_the_patch_folder>
 
 When you commit the changes, pnpm enters the information about the patched package into `package.json` and `pnpm-lock.yaml` files, creates a special file `wijione-add-two-numbers@1.0.0.patch` under `patches` folder in the root of your project and applies changes to the library source code in `node_modules`. In the screenshot below you can see what information the patch file contains.
 
-![Patch file](/assets/images/how-to-patch-a-javascript-library-using-pnpm/patch-file.png)
+![Patch file]({{ site.baseurl }}/assets/images/how-to-patch-a-javascript-library-using-pnpm/patch-file.png)
 
 In general, every time you run `pnpm install`, `pnpm add`, `pnpm update` and so on, pnpm will automatically traverse `patches` folder and apply changes on top of the installed packages based on patch files contents.
 
