@@ -169,6 +169,12 @@ In general, every time you run `pnpm install`, `pnpm add`, `pnpm update` and so 
 
 Now, to test the theory, remove the `node_modules` folder and run `pnpm install`. Eventually, in the `node_modules` you will see addition operator in the library source code according to our patch.
 
+Let's also run the application to make sure that it works correctly now.
+
+![Correct result]({{ site.baseurl }}/assets/images/how-to-patch-a-javascript-library-using-pnpm/correct-result.png)
+
+As you can see, the issue has been fixed and now we can see the correct result.
+
 Note that if you update the library version (for example to `1.0.1`), changes from patch won't be applied, since the patch is associated with a particular version. In our case it's `1.0.0`.
 
 Also, don't forget to commit and push `patches` folder to the remote. This way your colleagues will have access to the patch as well.
