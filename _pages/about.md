@@ -26,10 +26,10 @@ comments: true
 
 <p>Besides, I sincerely hope that this blog will also prove useful to someone other than myself.</p>
 
-<p>If you want to learn more about me or the idea behind this blog, please refer to my <a href="/welcome">welcoming post</a>.</p>
+<p>If you want to learn more about me or the idea behind this blog, please refer to my <a href="{{ site.baseurl }}/welcome">welcoming post</a>.</p>
 
 </div>
 <div class="col-md-5">
-<img class="w-100 h-auto" src="{{ site.baseurl }}/assets//images/about/viewneo-office.JPG" >
+<img class="w-100 h-auto" src="{{ site.baseurl }}/assets/images/about/viewneo-office.JPG" >
 </div> 
 </div>
